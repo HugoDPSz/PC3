@@ -21,7 +21,7 @@ Este projeto é uma API REST desenvolvida com **Node.js**, **Express** e **Mongo
 
 #### **Buscar usuários pelo e-mail**
 - **Método**: \`GET\`
-- **Rota**: \`/users/search\`
+- **Rota**: \`/users/search?email=:email\`
 - **Descrição**: Retorna os usuários filtrados com base em parâmetros passados.
 
 #### **Criar um novo usuário**
